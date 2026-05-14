@@ -1,15 +1,23 @@
-# P7S Reader
+# 🔐 P7S Reader
 
-Aplicação para leitura de arquivos `.p7s` (documentos assinados digitalmente), com extração de PDF, visualização e geração de relatório de assinatura.
+## 🚀 Leitura, extração e análise de documentos `.p7s` em uma interface simples
 
-## Funcionalidades
+O **P7S Reader** é uma aplicação desenvolvida para facilitar a leitura de arquivos `.p7s` (documentos assinados digitalmente), permitindo extrair o PDF embutido, visualizar o conteúdo e gerar relatórios com informações da assinatura digital.
 
-- **Extração de PDF** - Extrai o documento PDF embutido em arquivos `.p7s` (assinatura attached)
-- **Visualização** - Visualize o PDF diretamente no navegador
-- **Análise de Assinatura** - Exibe informações detalhadas do(s) signatário(s), certificado(s), cadeia de certificação
-- **Suporte ICP-Brasil** - Extração de CPF/CNPJ de certificados brasileiros
-- **Relatório** - Gera relatórios formatados em PDF ou TXT
-- **Formatos** - Suporta `.p7s` nos formatos DER (binário) e PEM (Base64)
+## 💡 Inspiração do Projeto
+
+Esta aplicação nasceu a partir de um desafio real identificado no ambiente de trabalho da **SEFAZ-MT**, dentro do contexto de uma solução de **Automação em andamento via ServiceNow**.
+
+A necessidade prática era tornar mais simples, rápida e acessível a análise de documentos assinados digitalmente no formato `.p7s`, reduzindo etapas manuais e apoiando fluxos de automação que dependem da extração e validação dessas informações.
+
+## ✨ Principais Destaques
+
+- **📄 Extração de PDF** - Extrai o documento PDF embutido em arquivos `.p7s` (assinatura attached)
+- **👁️ Visualização integrada** - Permite visualizar o PDF diretamente no navegador
+- **🔎 Análise da assinatura digital** - Exibe dados do(s) signatário(s), certificado(s) e cadeia de certificação
+- **🇧🇷 Suporte ICP-Brasil** - Extrai CPF/CNPJ de certificados brasileiros quando disponíveis
+- **🧾 Geração de relatório** - Cria relatórios formatados em PDF ou TXT
+- **🧩 Compatibilidade de formatos** - Suporta `.p7s` nos formatos DER (binário) e PEM (Base64)
 
 ## Pré-requisitos
 
