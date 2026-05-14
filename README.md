@@ -1,15 +1,15 @@
-# 🔐 P7S Reader
+# P7S Reader
 
 Aplicação para leitura de arquivos `.p7s` (documentos assinados digitalmente), com extração de PDF, visualização e geração de relatório de assinatura.
 
 ## Funcionalidades
 
-- **Extração de PDF** — Extrai o documento PDF embutido em arquivos `.p7s` (assinatura attached)
-- **Visualização** — Visualize o PDF diretamente no navegador
-- **Análise de Assinatura** — Exibe informações detalhadas do(s) signatário(s), certificado(s), cadeia de certificação
-- **Suporte ICP-Brasil** — Extração de CPF/CNPJ de certificados brasileiros
-- **Relatório** — Gera relatórios formatados em PDF ou TXT
-- **Formatos** — Suporta `.p7s` nos formatos DER (binário) e PEM (Base64)
+- **Extração de PDF** - Extrai o documento PDF embutido em arquivos `.p7s` (assinatura attached)
+- **Visualização** - Visualize o PDF diretamente no navegador
+- **Análise de Assinatura** - Exibe informações detalhadas do(s) signatário(s), certificado(s), cadeia de certificação
+- **Suporte ICP-Brasil** - Extração de CPF/CNPJ de certificados brasileiros
+- **Relatório** - Gera relatórios formatados em PDF ou TXT
+- **Formatos** - Suporta `.p7s` nos formatos DER (binário) e PEM (Base64)
 
 ## Pré-requisitos
 
@@ -47,13 +47,13 @@ A aplicação abrirá no navegador em `http://localhost:8501`.
 1. Clique em **"Browse files"** na barra lateral
 2. Selecione um arquivo `.p7s`
 3. Navegue pelas abas:
-   - **Visualizar PDF** — Veja e baixe o documento extraído
-   - **Assinatura Digital** — Analise os dados do signatário e certificado
-   - **Relatório** — Gere e baixe relatórios em PDF ou TXT
+   - **Visualizar PDF** - Veja e baixe o documento extraído
+   - **Assinatura Digital** - Analise os dados do signatário e certificado
+   - **Relatório** - Gere e baixe relatórios em PDF ou TXT
 
 ## Estrutura do Projeto
 
-```
+```text
 p7s-reader/
 ├── app.py                       # Interface Streamlit (ponto de entrada)
 ├── requirements.txt             # Dependências
@@ -82,3 +82,7 @@ p7s-reader/
 | `PyMuPDF` | Manipulação de PDF |
 | `reportlab` | Geração de relatórios em PDF |
 | `Pillow` | Processamento de imagens |
+
+## Licença
+
+Este projeto está licenciado sob a licença MIT. Consulte o arquivo `LICENSE` para mais detalhes.
