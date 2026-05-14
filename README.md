@@ -4,6 +4,12 @@
 
 O **P7S Reader** é uma aplicação desenvolvida para facilitar a leitura de arquivos `.p7s` (documentos assinados digitalmente), permitindo extrair o PDF embutido, visualizar o conteúdo e gerar relatórios com informações da assinatura digital.
 
+## 🖥️ Prévia da Aplicação
+
+<p align="center">
+  <img src="assets/telainicialp7s-reader.png" alt="Tela inicial do P7S Reader" width="900">
+</p>
+
 ## 💡 Inspiração do Projeto
 
 Esta aplicação nasceu a partir de um desafio real identificado no ambiente de trabalho da **SEFAZ-MT**, dentro do contexto de uma solução de **Automação em andamento via ServiceNow**.

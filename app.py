@@ -408,9 +408,13 @@ with st.sidebar:
 # ──────────────────────────────────────────────
 # Área principal — Interface baseada em Cards
 # ──────────────────────────────────────────────
+logo_col_left, logo_col_center, logo_col_right = st.columns([1, 2, 1])
+with logo_col_center:
+    st.image("assets/logocezarhora.png", width=420)
+
 st.markdown('<p class="main-title">🔐 P7S Reader</p>', unsafe_allow_html=True)
 st.markdown(
-    '<p class="subtitle">Plataforma para análise e validação de assinaturas digitais em arquivos .p7s</p>',
+    '<p class="subtitle">Leitura, extração e análise de documentos `.p7s` em uma interface simples - Desenvolvido por CezarHora®</p>',
     unsafe_allow_html=True,
 )
 
@@ -470,7 +474,7 @@ else:
     # Botão voltar/reset (sempre disponível)
     col_reset1, col_reset2 = st.columns([0.8, 0.2])
     with col_reset2:
-        if st.button("↩️ Novo arquivo", use_container_width=True):
+        if st.button("↩️ Voltar", use_container_width=True):
             st.session_state.action = None
             st.session_state.pdf_bytes = None
             st.session_state.sig_report = None
